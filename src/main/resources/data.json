@@ -1,0 +1,70 @@
+{
+  "weather": [
+    {
+      "id": 1,
+      "name": "Córdoba",
+      "country": "AR",
+      "coord": {
+        "lon": -64.1811,
+        "lat": -31.4135
+      },
+      "weather": [
+        {
+          "main": "Clouds",
+          "description": "broken clouds"
+        }
+      ],
+      "main": {
+        "temp": 75.506,
+        "feels_like": 76.748,
+        "temp_min": 75.236,
+        "temp_max": 77.18,
+        "pressure": 1009,
+        "humidity": 85,
+        "sea_level": 1009,
+        "grnd_level": 953
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 2.06,
+        "deg": 220
+      },
+      "clouds": {
+        "all": 75
+      }
+    },
+    {
+      "id": 2,
+      "name": "Rio de Janeiro",
+      "country": "BR",
+      "coord": {
+        "lon": -22.913158,
+        "lat": -43.775644
+      },
+      "weather": [
+        {
+          "main": "Rain",
+          "description": "broken rain"
+        }
+      ],
+      "main": {
+        "temp": 100.40,
+        "feels_like": 104,
+        "temp_min": 96.80,
+        "temp_max": 104,
+        "pressure": 1019,
+        "humidity": 85,
+        "sea_level": 1020,
+        "grnd_level": 960
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 2.10,
+        "deg": 230
+      },
+      "clouds": {
+        "all": 76
+      }
+    }
+  ]
+}

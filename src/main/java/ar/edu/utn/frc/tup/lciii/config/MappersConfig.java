@@ -16,8 +16,6 @@ public class MappersConfig {
     }
 
     @Bean("mergerMapper")
-    //Esta anotacion se utiliza para indicar inequivocamente cual es el nombre que tendrá un Bean
-    //De esta manera podemos tener mas de un Bean del mismo tipo en el ApllicationContext.
     public ModelMapper mergerMapper(){
         ModelMapper mapper = new ModelMapper();
         mapper.getConfiguration()
@@ -25,12 +23,10 @@ public class MappersConfig {
         return mapper;
     }
 
-
     @Bean
-    public ObjectMapper objectMapper(){
-        ObjectMapper objectMapper  = new ObjectMapper();
+    public ObjectMapper objectMapper() {
+        ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.registerModule(new JavaTimeModule());
         return objectMapper;
     }
-
 }
